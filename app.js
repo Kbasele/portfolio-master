@@ -13,7 +13,7 @@ class Page{
     }
     
     //Bestämmer vilken sida som ska visas
-    ShowOnlyPage(page ){
+    ShowOnlyPage(page){
         const pages = document.querySelectorAll(".pages")
         for(let current of pages){
             if(current.getAttribute("id") != page){
@@ -21,28 +21,26 @@ class Page{
             }
             
         }
-
     }
 
     //Skugga följer muspekaren
     shadow(e){
         const body = document.querySelector(".wrapper")
-        const landingPage = document.querySelector(".content-ladning-page")
         const firstname = document.querySelector(".content-ladning-page-fname")
         const lastname = document.querySelector(".content-ladning-page-lname")
         const stretch =  10; 
-        const projectCards = document.querySelectorAll(".project-card")
-        const icon = document.querySelectorAll(".icon")
         
-
+        
         const {offsetWidth: width, offsetheight: height} = body
+
         let {offsetX: x, offsetY: y} = e; 
-    
+
         if(this !== e.target){
             x = x + e.target.offsetLeft;
             y = y + e.target.offsetTop; 
         };
-    
+        
+
         const xStretch = Math.round((x /width * stretch) - (stretch / 2)); 
         const yStretch = Math.round((y /width * stretch) - (stretch / 2)); 
         
@@ -91,7 +89,6 @@ class Page{
 
                 //Byter efter första bytet
                 if(count>1){
-                    console.log(current)
                     this.ShowOnlyPage(current);
                     for(const cur of pages){
                         if(cur.getAttribute("id") == current.getAttribute("class")){
