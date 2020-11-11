@@ -28,6 +28,19 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:  #c82734;
+  }
+
+  ::-webkit-scrollbar-corner{
+      display: none;
+  }
 }
 
 body{
