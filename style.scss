@@ -29,19 +29,31 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 
+//Scrollbar chrome//
+    /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 0.4rem;
+    
   }
-  
-  ::-webkit-scrollbar-thumb {
-    background:  #c82734;
-  }
+//===============//
 
+//Scrollbar firefox//
+scrollbar-width: thin;
+  scrollbar-color: #f3d3bd8e $mainColor;
+//================//
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgba(0, 0, 0, 0.150); 
+    border-radius: 5px;
+  }
   ::-webkit-scrollbar-corner{
       display: none;
   }
+
 }
+
+
 
 body{
     background-color: $mainColor;

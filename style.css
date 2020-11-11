@@ -4,15 +4,19 @@
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
+  /* width */
+  scrollbar-width: thin;
+  scrollbar-color: #f3d3bd8e #DB2B39;
+  /* Handle */
 }
 
 * ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 0.4rem;
 }
 
 * ::-webkit-scrollbar-thumb {
-  background: #c82734;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
 
 * ::-webkit-scrollbar-corner {
