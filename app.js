@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
-    new Page()
+    //new Page()
 
 });
 
@@ -30,7 +30,9 @@ class Page{
         const landingPage = document.querySelector(".content-ladning-page")
         const firstname = document.querySelector(".content-ladning-page-fname")
         const lastname = document.querySelector(".content-ladning-page-lname")
-        const stretch =  100; 
+        const stretch =  10; 
+        const projectCards = document.querySelectorAll(".project-card")
+        const icon = document.querySelectorAll(".icon")
         
 
         const {offsetWidth: width, offsetheight: height} = body
@@ -45,7 +47,7 @@ class Page{
         const yStretch = Math.round((y /width * stretch) - (stretch / 2)); 
         
         firstname.style.textShadow=`${xStretch}px ${yStretch}px 9px rgba(0, 0, 0, 0.15)`; 
-        lastname.style.textShadow=`${xStretch}px ${yStretch}px 9px rgba(0, 0, 0, 0.15)`; 
+        lastname.style.textShadow=`${xStretch}px ${yStretch}px 9px rgba(0, 0, 0, 0.15)`;    
 
     }
 
@@ -103,51 +105,3 @@ class Page{
         }
     }
 }
-
-
-const carouselSlide = document.querySelector(".carousel-slide")
-const carouselslidevideos = document.querySelectorAll(".carousel-slide-video ")
-
-//buttons
-const nextBtn = document.querySelector(".fa-chevron-right")
-let prevBtn = document.querySelector(".fa-chevron-left")
-
-//Counter
-
-let counter = 1; 
-const size = carouselslidevideos[0].clientWidth;
-
-carouselSlide.style.transform ="translateX(" + (-size * counter ) + "px";
-
-//button Listeners
-
-nextBtn.addEventListener("click", ()=>{
-    if(counter >= carouselslidevideos.length-1)return;
-
-    carouselSlide.style.transition ="transform 0.7s ease-in-out";
-    counter++; 
-    carouselSlide.style.transform ="translateX(" + (-size * counter ) + "px";
-    
-})
-
-prevBtn.addEventListener("click", ()=>{
-    if(counter <= 0)return 
-    carouselSlide.style.transition ="transform 0.7s ease-in-out";
-    counter--; 
-    carouselSlide.style.transform ="translateX(" + (-size * counter ) + "px";
-})
-
-carouselSlide.addEventListener("transitionend", ()=>{
-    if(carouselslidevideos[counter].id == "lastClone"){
-        carouselSlide.style.transition = "none"
-        counter = carouselslidevideos.length -2;
-        carouselSlide.style.transform ="translateX(" + (-size * counter ) + "px";
-
-    }
-    if(carouselslidevideos[counter].id == "firstClone"){
-        carouselSlide.style.transition = "none"
-        counter = carouselslidevideos.length -counter;
-        carouselSlide.style.transform ="translateX(" + (-size * counter ) + "px";
-
-    }
-})
