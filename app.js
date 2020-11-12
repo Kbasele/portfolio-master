@@ -28,7 +28,7 @@ class Page{
         const body = document.querySelector(".wrapper")
         const firstname = document.querySelector(".content-ladning-page-fname")
         const lastname = document.querySelector(".content-ladning-page-lname")
-        const stretch =  10; 
+        const stretch =  20; 
         
         
         const {offsetWidth: width, offsetheight: height} = body

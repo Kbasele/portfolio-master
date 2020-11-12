@@ -24,6 +24,7 @@
 
 body {
   background-color: #DB2B39;
+  min-width: width 375px;
 }
 
 body .wrapper {
@@ -200,12 +201,16 @@ body .wrapper .wrapper-content .content-project-page {
   display: grid;
   height: 90%;
   max-width: 60%;
+  min-width: 60%;
   align-self: flex-end;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1.5fr 1fr;
-      grid-template-rows: 1fr 1.5fr 1fr;
+  -ms-grid-rows: 1fr 5fr 1fr;
+      grid-template-rows: 1fr 5fr 1fr;
   grid-column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @keyframes op {
@@ -217,6 +222,17 @@ body .wrapper .wrapper-content .content-project-page {
   }
 }
 
+body .wrapper .wrapper-content .content-project-page .project-page-card-container {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
 body .wrapper .wrapper-content .content-project-page .project-page-header {
   display: -ms-grid;
   display: grid;
@@ -225,14 +241,13 @@ body .wrapper .wrapper-content .content-project-page .project-page-header {
   -ms-grid-column-span: 2;
   grid-column: 1/3;
   -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
+  grid-row: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-body .wrapper .wrapper-content .content-project-page .project-yatzy {
+body .wrapper .wrapper-content .content-project-page .project-quiz {
   border-radius: 3px;
   -ms-grid-row: 2;
   grid-row: 2/2;
@@ -586,6 +601,21 @@ body .wrapper .wrapper-footer ul li:hover {
   }
   .project-page-header h1 {
     font-size: 6vw;
+  }
+  body .wrapper .wrapper-content .content-project-page .project-page-card-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    overflow: scroll;
+  }
+  body .wrapper .wrapper-content .content-project-page .project-page-card-container .project-quiz {
+    margin-left: 100px;
+    width: 300px;
+    max-width: 200px;
+  }
+  body .wrapper .wrapper-content .content-project-page .project-page-card-container .project-beat {
+    margin: 0px 50px;
+    max-width: 200px;
+    width: 300px;
   }
   .contact-project-page {
     -webkit-transform: scale(0.7);
