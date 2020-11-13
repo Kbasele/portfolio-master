@@ -6,7 +6,6 @@
   font-family: 'Josefin Sans', sans-serif;
   scrollbar-width: thin;
   scrollbar-color: brown  #ca2835;
-  /* Handle */
 }
 
 * ::-webkit-scrollbar {
@@ -163,16 +162,6 @@ body .wrapper .wrapper-content .content-about-page .about-page-header h1 {
   min-width: fit-content;
 }
 
-body .wrapper .wrapper-content .content-about-page .project-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-}
-
 body .wrapper .wrapper-content .content-about-page .about-text {
   border-radius: 3px;
   -ms-grid-row: 2;
@@ -189,7 +178,7 @@ body .wrapper .wrapper-content .content-about-page .about-text {
   line-height: 160%;
 }
 
-body .wrapper .wrapper-content .content-about-page .about-img {
+body .wrapper .wrapper-content .content-about-page .about-icons {
   -ms-grid-row: 3;
   grid-row: 3/3;
   -ms-grid-column: 1;

@@ -29,24 +29,21 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 
-//Scrollbar chrome
-::-webkit-scrollbar {
-    width: 0.4rem;
-    
-  }
-
-//Scrollbar firefox//
+    //Scrollbar
     scrollbar-width: thin;
-  scrollbar-color: brown  #ca2835 ;
+    scrollbar-color: brown  #ca2835 ;
+    
+    ::-webkit-scrollbar {
+    width: 0.4rem;
+    }
    
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
     background:  rgba(0, 0, 0, 0.150); 
     border-radius: 5px;
-  }
-  ::-webkit-scrollbar-corner{
-      display: none;
-  }
+    }
+    ::-webkit-scrollbar-corner{
+        display: none;
+    }
 
 }
 
@@ -54,9 +51,13 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
 
 body{
     background-color: $mainColor;
-    min-width: width 375px; ;
-    .wrapper{
+    min-width: width 375px;
 
+    //Wrapper för allt på sidan
+    .wrapper{
+        height: 100vh;
+
+        //Kuggljulet på startsidan
         .fa-cog{
             color: $textColor;
             position: absolute;
@@ -75,21 +76,22 @@ body{
                 color: #caaf9d;
                 }
             
-        }
-        
-        height: 100vh;
+        }        
     
+        // Wrapper för allt förutom footern
         .wrapper-content{
             @include flexCenter();
             height: 85%;
             min-width: 90%;
 
+            //Landningssidan 
             .content-ladning-page{
     
                 h1{
                     line-height: 85%;
                 }
                 
+                //Övre delen av rubriken (Kevin & Fullstack utvecklare)
                 .content-ladning-page-top{
                     display: flex;
                     .content-ladning-page-fname{
@@ -101,6 +103,7 @@ body{
                     }
                     .content-ladning-page-text{
                         color: $textColor;
+
                         h2{
                         font-size: 4vw;
                         font-family: Archivo Black;
@@ -108,8 +111,11 @@ body{
                         }
                     }
                 }
+
+                //Övre delen av rubriken (BASELE)
                 .content-ladning-page-bottom{
                     .content-ladning-page-lname{
+
                         font-family: Archivo Black;
                         color: $mainColor;
                         text-shadow: $textHeaderShadow;
@@ -118,7 +124,9 @@ body{
                 } 
             }
 
+            //Kontaktsidan
             .content-about-page{
+
                 @include fadeIn();
                 color: $textColor;
                 display: grid;
@@ -126,10 +134,10 @@ body{
                 width: 50%;
                 align-self: flex-end;
                 grid-column-gap: 30px;
-
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1.5fr 1fr;
                
+                //Kontaksidans rubrik
                 .about-page-header{
                     display: grid;
                     font-size: 2rem;
@@ -145,14 +153,9 @@ body{
                    
                 }
 
-                .project-card{
-                    display: flex;
-                    flex-flow: column;
-
-                    
-                }
-
+                //Om mig texten
                 .about-text{
+
                     border-radius: 3px;
                     grid-row: 2/2;
                     grid-column: 1/3;
@@ -161,22 +164,24 @@ body{
                     text-align: center;
                     font-size: 1.3rem;
                     line-height: 160%;
-
                 }
-                .about-img{
+
+                //Om mig ikonerna
+                .about-icons{
+
                     grid-row: 3/3;
                     grid-column:1/3;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
                     flex-flow: row;
-                    font-size: 3rem;
-                                        
-                    
+                    font-size: 3rem;    
                 }
-
             }
+
+            //Portfoliosidan
             .content-project-page{
+
                 @include fadeIn();
                 color: $textColor;
                 display: grid;
@@ -189,51 +194,62 @@ body{
                 grid-column-gap: 30px;
                 align-items: center;
                
+                //Kort containern
                 .project-page-card-container{
+
                     grid-column: 1/3;
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
                     grid-column-gap: 30px;
                     
                     a{
+
                         transition: 0.2s;
                         text-decoration: none;
                         color: $textColor;
                         &:hover{
+
                             border-bottom: solid 6px $textColor;
                         }
                     }
 
                 }
                 
+                //portfolio rubriken
                 .project-page-header{
                     
                     display: grid;
                     font-size: 2rem;
                     grid-column: 1/3;
                     grid-row: 1/2;
-                    justify-content: center;
-   
+                    justify-content: center;  
                 }
 
 
+                //Quizz kortet
                 .project-quiz{
                     border-radius: 3px;
                     grid-row: 2/2;
                     grid-column: 1;
                 }
+
+                //beat kortet
                 .project-beat{
                     border-radius: 3px;
                     grid-row: 2/2;
                     grid-column: 2;
                     
                 }
+
+                //acme event kortet
                 .project-bat{
                     border-radius: 3px;
                     grid-row: 2/2;
                     grid-column: 3;
 
                 }
+
+                //Alla tre kort
                 .project-card{
                     display: flex;
                     flex-flow: column;
@@ -268,9 +284,9 @@ body{
                         
                     }
                 }
-
-
             }
+
+            //Kontakt sidan 
             .contact-project-page{
                 @include fadeIn();
                 color: $textColor;
@@ -282,6 +298,7 @@ body{
                 grid-template-rows: 1fr 0.75fr 0.75fr 1fr;
                 grid-row-gap: 40px;
 
+                //Kontakt rubriken
                 .contact-page-header{
                     display: grid;
                     font-size: 2rem;
@@ -292,6 +309,7 @@ body{
                     align-items: center;
                 }
 
+                //ikonerna
                 .icon div{
                     transition: 0.7s;
                     
@@ -363,6 +381,7 @@ body{
         }
         
 
+        //footern
         .wrapper-footer{
             height: 15vh;
             display: flex;
@@ -399,11 +418,13 @@ body{
     }
 }
 
+//Klass som gömmer element
 .hidden{
     display: none !important;
     visibility: hidden !important;
 }
 
+//första sidans animation
 #firstPageAnimation{
     animation-name: change;
     animation-duration: 2s;
@@ -417,6 +438,8 @@ body{
     }
 
 }
+
+//fadear ut elemnten
 #fadeoutPage{
     animation-name: fadeout;
     animation-duration: 1.6s;
@@ -434,6 +457,8 @@ body{
         }
     }
 }
+
+//Fadear in elementen
 #fadeinPage{
     animation-name: op;
     animation-duration: 0.6s;
@@ -448,7 +473,9 @@ body{
 }
 
 
+//Media query
 @media screen and (max-width:900px){
+    //portfolio sidan
     .content-about-page{
         .about-page-header h1{
             font-size: 6vw;
@@ -462,17 +489,18 @@ body{
         }
     }
 
+    //Portfolio rubriken
     .project-page-header h1{
         font-size: 6vw;
     }
     
+    //
     body .wrapper .wrapper-content .content-project-page{
 
+        //portfolio korten
         .project-page-card-container{
             grid-template-columns: 1fr 1fr ;
             overflow: scroll;
-
-            
 
             .project-quiz{
                 margin-left:100px ;
@@ -490,12 +518,10 @@ body{
                 width: 300px;
             }
         }
-
-
     }
     
+    //kontaktsidan
     .contact-project-page{
-
         transform: scale(0.7);
 
     }

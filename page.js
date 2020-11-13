@@ -1,7 +1,7 @@
 class Page{
     constructor(){
         this.body = document.querySelector(".wrapper");
-        this.isClicked()        
+        this.shadowSwitch()        
         this.ShowOnlyPage("ladning-page");
         this.body.addEventListener("mousemove", this.shadow);
 
@@ -20,8 +20,8 @@ class Page{
         }
     }
 
-    //stäng av och på skuggfunktionen
-    isClicked(){
+    //stänger av och på skuggfunktionen
+    shadowSwitch(){
         
         const that = this
         let clicks = 0;
@@ -45,18 +45,23 @@ class Page{
         const lastname = document.querySelector(".content-ladning-page-lname")
         const stretch =  30; 
          
+        //Hämtar måtten på skärmen
         const {offsetWidth: width, offsetheight: height} = body
 
+        //Hämtar kordinaterna för muspekarn
         let {offsetX: x, offsetY: y} = e; 
 
+        //Ser till så att kordinaterna gäller även när man drar över en ny div
         if(this !== e.target){
             x = x + e.target.offsetLeft;
             y = y + e.target.offsetTop; 
         };
         
+        //Omvanldar x och y värderna till + och minus värden ex +100 -100
         const xStretch = Math.round((x /width * stretch) - (stretch / 2)); 
         const yStretch = Math.round((y /width * stretch) - (stretch / 2)); 
         
+        //Ger skuggan nya värden 
         firstname.style.textShadow=`${xStretch}px ${yStretch}px 9px rgba(0, 0, 0, 0.15)`; 
         lastname.style.textShadow=`${xStretch}px ${yStretch}px 9px rgba(0, 0, 0, 0.15)`;    
 
