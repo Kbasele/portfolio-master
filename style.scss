@@ -59,7 +59,7 @@ body{
 
         .fa-cog{
             color: $textColor;
-            position: relative;
+            position: absolute;
             float: right;
             top: 2vh ;
             right: 3vh;
@@ -164,8 +164,6 @@ body{
 
                 }
                 .about-img{
-                    
-                    border-radius: 3px;
                     grid-row: 3/3;
                     grid-column:1/3;
                     display: flex;
@@ -295,7 +293,7 @@ body{
                 }
 
                 .icon div{
-                    
+                    transition: 0.7s;
                     
                     i{
                         font-size: 50px;
@@ -306,7 +304,7 @@ body{
                         text-decoration: none;
                     }
                     &:hover{
-                        transform: scale(0.9);
+                        transform: scale(1.4);
                     }  
                 }
 
@@ -336,6 +334,7 @@ body{
                     align-items:flex-end ;
                     grid-column: 3;
                     grid-row: 2;
+                    cursor: pointer;
 
                     i{
                         width: 100%;

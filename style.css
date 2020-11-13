@@ -33,7 +33,7 @@ body .wrapper {
 
 body .wrapper .fa-cog {
   color: #F3D3BD;
-  position: relative;
+  position: absolute;
   float: right;
   top: 2vh;
   right: 3vh;
@@ -190,7 +190,6 @@ body .wrapper .wrapper-content .content-about-page .about-text {
 }
 
 body .wrapper .wrapper-content .content-about-page .about-img {
-  border-radius: 3px;
   -ms-grid-row: 3;
   grid-row: 3/3;
   -ms-grid-column: 1;
@@ -404,6 +403,11 @@ body .wrapper .wrapper-content .contact-project-page .contact-page-header {
           align-items: center;
 }
 
+body .wrapper .wrapper-content .contact-project-page .icon div {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 body .wrapper .wrapper-content .contact-project-page .icon div i {
   font-size: 50px;
 }
@@ -414,8 +418,8 @@ body .wrapper .wrapper-content .contact-project-page .icon div a {
 }
 
 body .wrapper .wrapper-content .contact-project-page .icon div:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 body .wrapper .wrapper-content .contact-project-page #icon1 {
@@ -475,6 +479,7 @@ body .wrapper .wrapper-content .contact-project-page #icon3 {
   grid-column: 3;
   -ms-grid-row: 2;
   grid-row: 2;
+  cursor: pointer;
 }
 
 body .wrapper .wrapper-content .contact-project-page #icon3 i {
