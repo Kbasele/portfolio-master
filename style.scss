@@ -56,6 +56,26 @@ body{
     background-color: $mainColor;
     min-width: width 375px; ;
     .wrapper{
+
+        .fa-cog{
+            color: $textColor;
+            position: relative;
+            float: right;
+            top: 2vh ;
+            right: 3vh;
+            cursor: pointer;
+            
+            &:hover{
+                transition: 0.2s;
+                color: #e4c5b2;
+                
+            }
+            &:active{
+                transition: 0s;
+                color: #caaf9d;
+                }
+            
+        }
         
         height: 100vh;
     

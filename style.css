@@ -31,6 +31,27 @@ body .wrapper {
   height: 100vh;
 }
 
+body .wrapper .fa-cog {
+  color: #F3D3BD;
+  position: relative;
+  float: right;
+  top: 2vh;
+  right: 3vh;
+  cursor: pointer;
+}
+
+body .wrapper .fa-cog:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #e4c5b2;
+}
+
+body .wrapper .fa-cog:active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  color: #caaf9d;
+}
+
 body .wrapper .wrapper-content {
   display: -webkit-box;
   display: -ms-flexbox;
