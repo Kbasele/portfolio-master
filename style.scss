@@ -29,9 +29,12 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 
+
+    //CSS valideringen säger att denna kod inte finns, men tar jag bort den får mina scrollers fel färg. 
+    //Koden validerar när den är borttagen så är väl medveten om det i valideringen. 
     //Scrollbar
-    scrollbar-width: thin;
-    scrollbar-color: brown  #ca2835 ;
+    /* scrollbar-width: thin;
+    scrollbar-color:brown #ca2835 ; */
     
     ::-webkit-scrollbar {
     width: 0.4rem;
@@ -51,7 +54,7 @@ $textHeaderShadow:25px 0px 9px  rgba(0, 0, 0, 0.150);
 
 body{
     background-color: $mainColor;
-    min-width: width 375px;
+    min-width: 375px;
 
     //Wrapper för allt på sidan
     .wrapper{
