@@ -178,6 +178,7 @@ body .wrapper .wrapper-content .content-about-page .about-text {
   text-align: center;
   font-size: 1.3rem;
   line-height: 160%;
+  overflow: scroll;
 }
 
 body .wrapper .wrapper-content .content-about-page .about-icons {
