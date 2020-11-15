@@ -2,52 +2,52 @@ Scrum
 
 Scrum är en agil utvecklingsmetod man använder sig av för att utveckla produkter. 
 Man jobbar i olika sprinter som varar mellan 3 - 30 dagar för att sedan gå vidare till en ny sprint. 
-I varje sprint sker först en planering av vad som skall göras kommande sprint, sedan börjar man bygga
-på produkten, därefter testas produkten och i slutet görs en review av det som gjorts i veckan.
+I varje sprint sker först en planering av vad som skall göras kommande sprint. Sedan börjar man bygga
+på produkten, därefter testas produkten och slutligen görs en review av det som har gjorts i veckan.
 
-När man jobbar i scrum så finns det 3 olika roller. Produktägare, Scrum Master och utvecklar teamet. 
+När man jobbar i scrum finns det 3 olika roller. Produktägare, Scrum Master och utvecklar teamet. 
 Produktägaren har som ansvar att representera kundens intresse för teamet, prioriteringsordningen av product
 backlog items och hanteringen av product backlog. 
 
-Scrum master ses som en teamleader som ansvaar för gruppen, dennes uppgift är att se till så att processen
-flyter på som den ska och att alla gör det dem ska göra och uppstår det hinder så är det dennes uppgift att hantera det. 
-Utvecklingsteamet består av alla de som är med och utvecklar produkten exempelvis utvecklare och testare.
+Scrum master ses som en teamleader som ansvarar för gruppen. Den personen har i uppgift att se till att processen
+flyter på som den ska och hålla ett öga på att alla gör det dem ska göra. Uppstår det hinder så är det dennes uppgift att hantera det. 
+Utvecklingsteamet består av alla de som är med och utvecklar produkten, till exempel utvecklare och testare.
 Gruppen består oftast av 3-9 personer och deras uppgift är att bygga på produkten och få den färdigställt. 
 
-I scrum så använder man sig av tre dokument även kallade artifacts. Product backlog, sprint backlog och increment. 
-Product backlog är en att göra lista för projektet och den bestäms av produktägaren, ingen annan får
-ändra i den men vem som helst kan prata med produktägaren och lyfta sina synpunkter vilket kan leda till att produktägaren ändrar i den. 
+I scrum så använder man sig av tre dokument även kallade artifacts. Dessa dokument är Product backlog, sprint backlog och increment. 
+Product backlog är en att göra lista för projektet och den bestäms av produktägaren. Ingen annan får
+ändra i den men vem som helst kan prata med produktägaren och lyfta sina synpunkter. Detta kan i sin tur leda till att produktägaren väljer att ändra i den. 
 
-Sprint backlog är sprintens att göra lista och bestäms av teamet, när man väl satt igång med sprinten går den inte att ändra på.
+Sprint backlog är sprintens att göra lista och bestäms av teamet. När man väl satt igång med sprinten går den inte att ändra på.
 
 Increment är summan av alla product backlog items och tidigare sprintars  backlog items. Här ser man rätt tydligt hur man 
-ligger till i planeringen. För att man ska kunna räkna med en backlog item här måste den ha gått igenom teamets definition 
+ligger till i planeringen. För att man ska kunna räkna med en backlog item här, måste den ha gått igenom teamets definition 
 av done som man tillsammans bestämmer. 
 
 
-Sprinterna är uppdelade i event. Sprint planning, daily scrum, sprint review, sprint retrospective. 
+Sprinterna är uppdelade i olika event som Sprint planning, daily scrum, sprint review och sprint retrospective. 
 
-Sprint planning
-I denna process informerar produktägaren vilka krav som finns. I tur så estimerar gruppen hur lång tid vissa
+
+I processen sprint planning informerar produktägaren vilka krav som finns. I sin tur estimerar gruppen hur lång tid vissa
 saker ska ta och bryter ner kraven i olika backlog items som produktägaren sedan bestämmer prioriteringsordning på. 
-Sen delas/tas de oliga backlog  tems.
+Sedan delas de oliga backlog items ut.
 
-Daily scrum innebär att man har ett möte varje dag på inte mer en 15 minuter. I dessa möten så diskuteras det om vad 
-man gjort från igår och vad man ska göra till och med imorgon och ifall det finns några hinder. 
+Daily scrum innebär att man har ett möte varje dag på inte mer en 15 minuter. I dessa möten diskuteras det om vad 
+man gjort från igår, vad man ska göra till och med imorgon och ifall det finns några hinder. 
 
-I sprint reviewen så diskuterar man resultatet av sprinten, man visar upp sin produkt för produktägaren och andra
+I sprint review diskuterar man resultatet av sprinten. Produkt visas upp för produktägaren och andra
 intresserade. Produktägaren informerar om kommande planer samt uppdaterar product backlogen. 
 
 Sprint retrospektiv är ett sätt för teamet att diskutera öppet om hur tidigare period har varit ifall det
 funnits något som varit mindre bra eller tvärtom. 
 
-Grafisk profil
+
 Grafisk profil är lite som en stilmall som olika förhåller sig till. I denna stilmall så har man 
 exempelvis förbestämda storlekar på typsnitt, förbestämda färger på olika element och en logotyp.
-Detta för att ha en konsekvent design och stärka företagets varumärke. 
+Detta är för att ha en konsekvent design och stärka företagets varumärke. 
 
-Tillgänglighet
-Tillgänglighet innebär att webben ska vara hinder fri för alla som använder den. Det ska underlätta
+
+Tillgänglighet innebär att webben ska vara hinderfri för alla som använder den. Det ska underlätta
 för de som har funktionshinder samtidigt som det blir bekvämt för personer som inte har samma funktionsnedsättning. 
 
 Det finns fyra principer som bör följas för att en hemsida ska vara tillgänglig och dessa är “Möjlig att uppfatta”,
@@ -56,62 +56,69 @@ Det finns fyra principer som bör följas för att en hemsida ska vara tillgäng
 Möjlig att uppfattas innebär att informationen på sidan ska kunna uppfattas av användaren, skulle exempelvis
 användaren ha synfel så ska det finnas textversion av bilder som förklarar vad som visas. 
 
-Hanterbar innebär att besökaren av sidan ska kunna navigera sig på sidan, exempelvis
+Hanterbar innebär att besökaren av sidan ska kunna navigera sig på sidan,exempelvis
 om användaren enbart använder sig av tangentbord för att navigera så ska det gå smärtfritt. 
 
 Begriplig innebär att användaren enkelt ska kunna förstå sig på det som finns på
  sidan, exempelvis så bör navigationen alltid befinna sig på samma områden när man navigerar sig runt på sidan.
 
-Robust innebär att innehållet i en hemsida ska vara tillgängligt för olika enheter Exempelvis datorer,
+Robust innebär att innehållet på en hemsida ska vara tillgängligt för olika enheter. Exempelpå detta är datorer,
 mobiler, surfplattor eller kanske en spelkonsol. Detta följs på bästa sätt genom att man skriver sin HTML-kod på ett korrekt sätt. 
 
 
 Diskussion 
 
-Scrum
+
 Efter att själv ha jobbat i scrum när vi jobbat med Acme Event så har jag nästintill bara positiva tankar
-kring det. Jag som person är väldigt mån om att få fram mina åsikter i ett grupprojekt samtidigt som jag vill få höra andras,
-och sättet man jobbar med i scrum hjälper detta väldigt mycket med bland annat Sprint retrospektiv där man får chansen att lyfta 
-ur hur man faktiskt tycker att det har gått. Personligen tror jag att ett transparent arbetssätt leder till att projektet växer på ett 
+kring det. Jag som person är väldigt mån om att få fram mina åsikter i ett grupprojekt samtidigt som jag vill få höra andras.
+Sättet man jobbar i scrum hjälper väldigt mycket till med bland annat Sprint retrospektiv där man får chansen att lyfta 
+fram hur man tycker att det har gått. Personligen tror jag att ett transparent arbetssätt leder till att projektet växer på ett 
 positivt sätt samtidigt som alla individer har möjlighet att ta till sig både konstruktiv och positiv feedback. 
 De negativa delarna med scrum skulle kunna vara  en sak som att man alltid ska behöva ha daily scrums, vilket
 alla kanske inte uppskattar och tycker att det bara tar onödig tid. Dessutom så bygger scrum mycke på teamwork
 och att alla drar sitt strå till stacken med tanke på de olika backlog items som ska göras. Men här har även scrum mastern
- som ansvar så att alla sköter sitt jobb på rätt sätt och gör det dem ska göra. 
+ som ansvar att alla sköter sitt jobb på rätt sätt och gör det dem ska göra. 
 
-Grafisk profil
-Ett stort plus med grafisk profil är att det verkligen stärker ett företags varumärke något enorm. Skulle vi ta mcDonald som 
+
+Ett stort plus med grafisk profil är att det verkligen stärker ett företags varumärke något enorm. Skulle vi ta McDonalds som 
 exempel så ser resturangen ut precis på samma sätt oavsett vilket land man är i. Detta  leder till någon form av igenkänning och man 
-vet vad man har att förvänta sig. Precis på samma sätt tänker jag att det funkar med hemsidor, navigerar man sig runt på en hemsida vill 
+vet vad man har att förvänta sig. Precis på samma sätt tänker jag att det funkar med hemsidoravigerar man sig runt på en hemsida vill 
 man att saker och ting ska följa ett visst mönster. Kanske inget man tänker på medvetet men det blir nog en bättre upplevelse för användaren 
 ifall hemsidan följer en röd tråd. 
 
 
-Något som kanske är skulle kunna anses negativt med grafisk profil är att det tar bort lite av den kreativa  processen för programmerare, 
+Något som kanske skulle kunna anses som negativt med grafisk profil är att det tar bort lite av den kreativa  processen för programmerare, 
 eller designer. Man blir tvungen att förhålla sig till en viss mall när man själv kanske hade tänkt sig något helt annat från början. I Acme event 
-projekten vet jag att det var vissa grupper som hade det lite svårare med färgerna eftersom att de tyckte att de hade fått “svåra” färger att jobba 
-med. Men personligen skulle jag se dedt som en möjlighet att få öva på sin kreativa sida. 
+projekten vet jag att det var vissa grupper som hade det lite svårare med färgerna eftersom att de tyckte att de hade fått för “svåra” färger att jobba 
+med. Men personligen skulle jag se det som en möjlighet att få öva på min kreativa sida. 
 
-Tillgänglighet
 
-Jag anser att det är superpositivt med vissa av de tillgänglighet krav som finns, som nämnt i rapporten så ska det ta bort hinder för vissa men också göra det mer bekvämt för andra. Ett sådant exempel är responsiva hemsidor, jag minns för ett x antal år sedan när jag hade en äldre telefon som jag kunde surfa med, när jag gick in på vissa sidor så var sidorna sällan anpassade för mobiler. Det gick fortfarande att surfa men själva upplevelsen försämrades markant. Nu för tiden är mer eller mindre alla hemsidor responsiva vilket gör att man får ungefär samma upplevlse från telefonen. 
-En negativ aspekt här är väl också att det kan döda det kreativa flödet för designers eller programmerare. En sak som mitt portfolio inte går igenom är att det ska vara tillräckligt mycket kontrast mellan bakgrundsfärg och textfärg. Det som skiljer min logga från bakgrundsfärgen är bara skuggan emellan. Jag har dock valt att ändå gå med den eftersom att min målgrupp som jag skickar ut min portfölj till antar jag inte ska ha några problem med det. 
----
-Det här är de tillgänglighetskrav jag följt
+Jag anser att det är superpositivt med vissa av de tillgänglighetskrav som finns. Som nämnt i rapporten
+så ska det ta bort hinder för vissa men också göra det mer bekvämt för andra. Ett sådant exempel är responsiva hemsidor.
+ 
+Jag minns för ett x antal år sedan när jag hade en äldre telefon som jag kunde surfa med, och jag gick in på vissa sidor så var
+ sidorna sällan anpassade för mobiler. Det gick fortfarande att surfa men själva upplevelsen försämrades markant. Nu för tiden
+är mer eller mindre alla hemsidor responsiva vilket gör att man får ungefär samma upplevlse på telefonen. 
+En negativ aspekt här är också att det kan döda det kreativa flödet för designers eller programmerare. 
+En sak som mitt portfolio inte går igenom är att det ska vara tillräckligt mycket kontrast mellan bakgrundsfärg och textens färg.
+ Det som skiljer min logga från bakgrundsfärgen är bara skuggan emellan. Jag har ändå valt att använda mig av den eftersom att min
+  målgrupp som jag skickar ut min portfölj till antar jag inte kommer att ha några problem med det. 
+-----------------------------------------------------------------------------------------------------
+Det här är de tillgänglighetskrav jag följt:
 
 1.4.1 (A) - Använd inte enbart färg för att förmedla information
 Här har jag valt att lägga en linje under varje länk och på kontaktsidan finns
 en ikon ovanför varje länk.
 
 2.2.2 (A) Ge användarna möjlighet att pausa eller stänga av rörelser
-Användarna har möjlighet att stänga av skuggfuntionen
+Användarna har möjlighet att stänga av skuggfuntionen.
 
 2.4.4 (A) Skriv tydliga länkar
 Skrivit tydliga länkar så att användaren vet vart de leder.
 
 2.4.6 (AA) - Skriv beskrivande rubriker och etiketter
 Har väldigt tydliga rubriker på varje sida så att användaren vet
-vilken sida de är på
+vilken sida de är på.
 
 3.1.2 (AA) - Ange språkförändringar i koden
 Gjort i början av dokumentet, satt till svenska.
@@ -120,4 +127,4 @@ Gjort i början av dokumentet, satt till svenska.
 Navigationen sitter på samma ställe oavsätt sida. 
 
 4.1.1 (A) - Se till att koden validerar
-Koden Validerar
+Koden Validerar.
