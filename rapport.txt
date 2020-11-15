@@ -116,5 +116,8 @@ vilken sida de är på
 3.1.2 (AA) - Ange språkförändringar i koden
 Gjort i början av dokumentet, satt till svenska.
 
+3.2.3 (AA) 	Var konsekvent i navigation, struktur och utformning
+Navigationen sitter på samma ställe oavsätt sida. 
+
 4.1.1 (A) - Se till att koden validerar
 Koden Validerar
