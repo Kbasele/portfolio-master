@@ -65,13 +65,17 @@ body{
             top: 2vh ;
             right: 3vh;
             cursor: pointer;
+            border-bottom: solid 1px #F3D3BD;
+
             
             &:hover{
                 transition: 0.2s;
                 color: #e4c5b2;
+                border-bottom: solid 4px #F3D3BD;
                 
             }
             &:active{
+
                 transition: 0s;
                 color: #caaf9d;
                 }
@@ -203,6 +207,8 @@ body{
                     grid-column-gap: 30px;
                     
                     a{
+                        border-bottom: solid 1px #F3D3BD;
+
 
                         transition: 0.2s;
                         text-decoration: none;
@@ -402,6 +408,8 @@ body{
                     margin:  0 15px;
                     min-width: fit-content;
                     cursor: pointer;
+                    border-bottom: solid 1px #F3D3BD;
+
 
                     a{
                         text-decoration: none;

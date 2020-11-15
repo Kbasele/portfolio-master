@@ -37,12 +37,14 @@ body .wrapper .fa-cog {
   top: 2vh;
   right: 3vh;
   cursor: pointer;
+  border-bottom: solid 1px #F3D3BD;
 }
 
 body .wrapper .fa-cog:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #e4c5b2;
+  border-bottom: solid 4px #F3D3BD;
 }
 
 body .wrapper .fa-cog:active {
@@ -242,6 +244,7 @@ body .wrapper .wrapper-content .content-project-page .project-page-card-containe
 }
 
 body .wrapper .wrapper-content .content-project-page .project-page-card-container a {
+  border-bottom: solid 1px #F3D3BD;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-decoration: none;
@@ -541,6 +544,7 @@ body .wrapper .wrapper-footer ul li {
   min-width: -moz-fit-content;
   min-width: fit-content;
   cursor: pointer;
+  border-bottom: solid 1px #F3D3BD;
 }
 
 body .wrapper .wrapper-footer ul li a {

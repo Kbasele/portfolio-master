@@ -25,6 +25,8 @@ class Page{
         
         const that = this
         let clicks = 0;
+
+        //klick event för kuggljulet
         document.querySelector(".fa-cog").addEventListener("click", function(e){
             ++clicks
             if(clicks %2 != 0){            
@@ -32,7 +34,6 @@ class Page{
             }
             else{
                 that.body.addEventListener("mousemove", that.shadow);
-
             }
             
         })
@@ -79,6 +80,7 @@ class Page{
         for(let current of navbar){
             const pages = document.querySelectorAll(".pages")
 
+            //Eventlyssnare till navbar
             current.addEventListener("click", (e)=>{
                 count++
                 const that = this;
@@ -89,11 +91,11 @@ class Page{
                         
                     }
                     else{
-                        console.log(current)
                         firstname.setAttribute("id", "firstPageAnimation");
                         lastname.setAttribute("id", "firstPageAnimation");
                         landingPage.setAttribute("id", "fadeoutPage")
                         
+                        //fördröjer sidbytet så att animationen hinner bli färdig
                         setTimeout(function(){
                             that.ShowOnlyPage(current);
                             for(const cur of pages){
@@ -109,6 +111,8 @@ class Page{
                 if(count>1){
                     this.ShowOnlyPage(current);
                     for(const cur of pages){
+
+                        //Tar bort atr hidden och visar den aktuella sidan
                         if(cur.getAttribute("id") == current.getAttribute("class")){
                             cur.classList.remove("hidden")
                             cur.classList.remove("firstPageAnimation")
